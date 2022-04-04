@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "eslint config",
   "license": "MIT",
-  "author": "zb980921 <zbneversettle@gmail.com>",
+  "author": "zb980921 <pig199881@qq.com>",
   "main": "index.js",
   "dependencies": {
     "@zb980921/eslint-config-vue": "workspace:*"
