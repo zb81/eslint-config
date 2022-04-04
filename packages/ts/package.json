@@ -1,0 +1,27 @@
+{
+  "name": "@zb980921/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "eslint config for ts",
+  "license": "MIT",
+  "author": "zb980921 <zbneversettle@gmail.com>",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8",
+    "typescript": "^4"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "@zb980921/eslint-config-basic": "workspace:*"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "typescript": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

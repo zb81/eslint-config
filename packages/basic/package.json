@@ -1,0 +1,31 @@
+{
+  "name": "@zb980921/eslint-config-basic",
+  "version": "1.0.0",
+  "description": "eslint config for html,markdown,json...",
+  "license": "MIT",
+  "author": "zb980921 <zbneversettle@gmail.com>",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsonc": "^2.2.1",
+    "eslint-plugin-markdown": "^2.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jsonc-eslint-parser": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

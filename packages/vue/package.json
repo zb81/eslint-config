@@ -1,0 +1,24 @@
+{
+  "name": "@zb980921/eslint-config-vue",
+  "version": "1.0.0",
+  "description": "eslint config for vue",
+  "license": "MIT",
+  "author": "zb980921 <zbneversettle@gmail.com>",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "dependencies": {
+    "@zb980921/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "^8.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@zb980921/eslint-config-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "monorepo for my eslint config",
+  "license": "MIT",
+  "author": "zb980921 <pig199881@qq.com>",
+  "main": "index.js",
+  "scripts": {
+    "release": "pnpm publish -r"
+  },
+  "devDependencies": {
+    "@zb980921/eslint-config": "workspace:*",
+    "eslint": "^8.12.0",
+    "typescript": "^4.6.3"
+  }
+}
