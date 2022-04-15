@@ -3,11 +3,11 @@
 ## ①
 
 ```bash
-pnpm add @zb980921/eslint-config -D
+pnpm add eslint @zb980921/eslint-config -D
 
 # or
 
-npm install @zb980921/eslint-config -D
+npm install eslint @zb980921/eslint-config -D
 ```
 
 ## ②
