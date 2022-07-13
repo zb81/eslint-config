@@ -125,8 +125,8 @@ module.exports = {
      */
     // 分号
     'semi': ['error', 'never'],
-    // 语句块的花括号，单行语句可省略
-    'curly': ['error', 'multi-or-nest', 'consistent'],
+    // 语句块的花括号
+    'curly': ['error', 'all'],
     // 引号
     'quotes': ['error', 'single'],
     // 对象属性的引号，保持一致
@@ -138,7 +138,7 @@ module.exports = {
     // 数组中括号空格
     'array-bracket-spacing': ['error', 'never'],
     // 大括号风格，if-else中的else语句必须另起一行，允许开括号和闭括号在同一行
-    'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
+    'brace-style': ['error', '1tbs', { allowSingleLine: true }],
     // 开括号后、闭括号前必须有空格
     'block-spacing': ['error', 'always'],
     // 驼峰命名，关闭

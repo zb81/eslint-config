@@ -1,16 +1,21 @@
 {
   "name": "@zb980921/eslint-config-monorepo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
   "description": "monorepo for my eslint config",
   "license": "MIT",
   "author": "zb980921 <pig199881@qq.com>",
   "main": "index.js",
   "scripts": {
-    "release": "pnpm publish -r"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "bumpp package.json packages/*/package.json --commit --push && pnpm -r publish"
   },
   "devDependencies": {
-    "@zb980921/eslint-config": "workspace:*",
+    "@zb980921/eslint-config-basic": "workspace:*",
+    "@zb980921/eslint-config-ts": "workspace:*",
+    "@zb980921/eslint-config-vue": "workspace:*",
+    "bumpp": "^8.2.1",
     "eslint": "^8.12.0",
     "typescript": "^4.6.3"
   }
