@@ -3,11 +3,11 @@
 ## ①
 
 ```bash
-pnpm add eslint @zb980921/eslint-config -D
+pnpm add eslint @zb980921/eslint-config-basic -D
 
 # or
 
-npm install eslint @zb980921/eslint-config -D
+npm install eslint @zb980921/eslint-config-basic -D
 ```
 
 ## ②
@@ -17,7 +17,7 @@ create `.eslintrc` , add codes
 ```
 {
   "extends": [
-    "@zb980921"
+    "@zb980921/basic"
   ],
   "rules: {
     // add your rules
