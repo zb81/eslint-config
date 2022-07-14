@@ -10,7 +10,7 @@ pnpm add eslint typescript @zb980921/eslint-config-ts -D
 
 create `.eslintrc` :
 
-```json
+```jsonc
 {
   "extends": [
     "@zb980921/ts"
