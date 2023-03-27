@@ -1,9 +1,9 @@
 {
   "name": "@zb980921/eslint-config-vue",
   "version": "0.1.0",
-  "description": "eslint config for vue",
+  "description": "eslint config for Vue",
   "license": "MIT",
-  "author": "zb980921 <pig199881@qq.com>",
+  "author": "CoderZB <zbneversettle@gmail.com>",
   "files": [
     "index.js"
   ],
