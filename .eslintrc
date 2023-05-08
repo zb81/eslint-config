@@ -2,7 +2,6 @@
   "extends": [
     "@zb980921/basic",
     "@zb980921/ts",
-    "@zb980921/vue",
-    "@zb980921/react"
+    "@zb980921/vue"
   ]
 }

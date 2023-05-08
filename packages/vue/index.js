@@ -21,6 +21,15 @@ module.exports = {
     '@zb980921/ts',
   ],
   rules: {
+    'vue/html-self-closing': ['warn', {
+      html: {
+        void: 'always',
+        normal: 'never',
+        component: 'always',
+      },
+      svg: 'always',
+      math: 'always',
+    }],
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
     'vue/require-prop-types': 'off',
