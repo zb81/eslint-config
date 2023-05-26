@@ -13,11 +13,11 @@
   },
   "devDependencies": {
     "@zb980921/eslint-config-basic": "workspace:*",
+    "@zb980921/eslint-config-react": "workspace:*",
     "@zb980921/eslint-config-ts": "workspace:*",
     "@zb980921/eslint-config-vue": "workspace:*",
-    "@zb980921/eslint-config-react": "workspace:*",
     "bumpp": "^8.2.1",
     "eslint": "^8.12.0",
-    "typescript": "^4.6.3"
+    "typescript": "^5.0.4"
   }
 }
