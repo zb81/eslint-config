@@ -9,15 +9,16 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "bumpp package.json packages/*/package.json --commit --push && pnpm -r publish"
+    "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
     "@zb980921/eslint-config-basic": "workspace:*",
     "@zb980921/eslint-config-react": "workspace:*",
     "@zb980921/eslint-config-ts": "workspace:*",
     "@zb980921/eslint-config-vue": "workspace:*",
-    "bumpp": "^8.2.1",
-    "eslint": "^8.12.0",
-    "typescript": "^5.0.4"
+    "bumpp": "^9.1.0",
+    "eslint": "^8.42.0",
+    "typeorm": "^0.3.16",
+    "typescript": "^5.1.3"
   }
 }
