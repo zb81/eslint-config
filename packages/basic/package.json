@@ -1,6 +1,6 @@
 {
   "name": "@zb980921/eslint-config-basic",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "eslint config for html, markdown, json...",
   "license": "MIT",
   "author": "CoderZB <zbneversettle@gmail.com>",
