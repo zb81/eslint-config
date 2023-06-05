@@ -1,4 +1,8 @@
 module.exports = {
+  parserOptions: {
+    ecmaVersion: 'latest',
+  },
+
   env: {
     es6: true,
     browser: true,
@@ -154,15 +158,15 @@ module.exports = {
     // 禁止出现debugger
     'no-debugger': 'error',
     // 禁止console.log，可以自定义一个Console类，判断当前是否在开发环境，再输出
-    'no-console': ['error', { allow: ['warn', 'error'] }],
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
     // 禁止在条件语句中出现赋值操作符
     'no-cond-assign': ['error', 'always'],
     // 函数标识符和调用之间的空格，自动修复
     'func-call-spacing': ['off', 'never'],
     // 对象字面量的键和值之间的空格，冒号之前不用加，冒号之后必须加
-    'key-spacing': ['error', { beforeColon: false, afterColon: true }],
+    'key-spacing': ['warn', { beforeColon: false, afterColon: true }],
     // 缩进，使用2个空格
-    'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
+    'indent': ['warn', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
     // 禁用的语法，列表中的每个字符串都是一个AST选择器
     // 关于AST可以参考：https://astexplorer.net/
     'no-restricted-syntax': [
