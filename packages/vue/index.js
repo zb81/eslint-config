@@ -18,7 +18,7 @@ module.exports = {
   ],
   extends: [
     'plugin:vue/vue3-recommended',
-    '@zb980921/ts',
+    '@zb81/ts',
   ],
   rules: {
     'vue/html-self-closing': ['warn', {

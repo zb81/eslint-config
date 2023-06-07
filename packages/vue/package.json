@@ -1,5 +1,5 @@
 {
-  "name": "@zb980921/eslint-config-vue",
+  "name": "@zb81/eslint-config-vue",
   "version": "0.1.6",
   "description": "eslint config for Vue",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "eslint": "^8"
   },
   "dependencies": {
-    "@zb980921/eslint-config-ts": "workspace:*",
+    "@zb81/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.14.1"
   },
   "devDependencies": {

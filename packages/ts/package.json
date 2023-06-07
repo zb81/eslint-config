@@ -1,5 +1,5 @@
 {
-  "name": "@zb980921/eslint-config-ts",
+  "name": "@zb81/eslint-config-ts",
   "version": "0.1.6",
   "description": "eslint config for ts",
   "license": "MIT",
@@ -14,7 +14,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
-    "@zb980921/eslint-config-basic": "workspace:*"
+    "@zb81/eslint-config-basic": "workspace:*"
   },
   "devDependencies": {
     "eslint": "^8.42.0",

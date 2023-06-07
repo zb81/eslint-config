@@ -1,5 +1,5 @@
 {
-  "name": "@zb980921/eslint-config-monorepo",
+  "name": "@zb81/eslint-config-monorepo",
   "version": "0.1.6",
   "private": true,
   "description": "monorepo for my eslint config",
@@ -12,10 +12,10 @@
     "release": "bumpp -r && pnpm -r publish"
   },
   "devDependencies": {
-    "@zb980921/eslint-config-basic": "workspace:*",
-    "@zb980921/eslint-config-react": "workspace:*",
-    "@zb980921/eslint-config-ts": "workspace:*",
-    "@zb980921/eslint-config-vue": "workspace:*",
+    "@zb81/eslint-config-basic": "workspace:*",
+    "@zb81/eslint-config-react": "workspace:*",
+    "@zb81/eslint-config-ts": "workspace:*",
+    "@zb81/eslint-config-vue": "workspace:*",
     "bumpp": "^9.1.0",
     "eslint": "^8.42.0",
     "typeorm": "^0.3.16",

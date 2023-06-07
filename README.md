@@ -3,7 +3,7 @@
 ## ①
 
 ```bash
-pnpm add eslint typescript @zb980921/eslint-config-ts -D
+pnpm add eslint typescript @zb81/eslint-config-ts -D
 ```
 
 ## ②
@@ -13,7 +13,7 @@ create `.eslintrc` :
 ```jsonc
 {
   "extends": [
-    "@zb980921/ts"
+    "@zb81/ts"
   ],
   "rules: {
     // add your rules
