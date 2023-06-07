@@ -1,6 +1,6 @@
 {
   "name": "@zb81/eslint-config-ts",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "description": "eslint config for ts",
   "license": "MIT",
   "author": "CoderZB <zbneversettle@gmail.com>",
