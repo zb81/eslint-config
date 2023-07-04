@@ -6,6 +6,9 @@ module.exports = {
     {
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
+      parserOptions: {
+        parser: '@typescript-eslint/parser',
+      },
       rules: {
         'no-unused-vars': 'off',
         'no-undef': 'off',
@@ -14,8 +17,8 @@ module.exports = {
     },
   ],
   extends: [
-    'plugin:vue/recommended',
-    '@zb81/basic',
+    'plugin:vue/vue3-recommended',
+    '@zb81/ts',
   ],
   rules: {
     'vue/html-self-closing': ['warn', {
@@ -32,5 +35,10 @@ module.exports = {
     'vue/require-prop-types': 'off',
     'vue/require-default-prop': 'off',
     'vue/multi-word-component-names': 'off',
+    'vue/no-deprecated-v-bind-sync': 'off',
+    'vue/no-deprecated-v-on-native-modifier': 'off',
+    'vue/no-deprecated-router-link-tag-prop': 'off',
+    'vue/no-deprecated-slot-attribute': 'off',
+    'vue/no-deprecated-dollar-listeners-api': 'off',
   },
 }

@@ -1,5 +1,5 @@
 {
   "extends": [
-    "@zb81/vue"
+    "@zb81/vue2"
   ]
 }

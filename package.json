@@ -4,7 +4,7 @@
   "private": true,
   "description": "monorepo for my eslint config",
   "license": "MIT",
-  "author": "CoderZB <zbneversettle@gmail.com>",
+  "author": "Zhu Bei <zbneversettle@gmail.com>",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -16,6 +16,7 @@
     "@zb81/eslint-config-react": "workspace:*",
     "@zb81/eslint-config-ts": "workspace:*",
     "@zb81/eslint-config-vue": "workspace:*",
+    "@zb81/eslint-config-vue2": "workspace:*",
     "bumpp": "^9.1.0",
     "eslint": "^8.42.0",
     "typeorm": "^0.3.16",

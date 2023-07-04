@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "eslint config for html, markdown, json...",
   "license": "MIT",
-  "author": "CoderZB <zbneversettle@gmail.com>",
+  "author": "Zhu Bei <zbneversettle@gmail.com>",
   "files": [
     "index.js"
   ],
