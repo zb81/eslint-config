@@ -156,7 +156,7 @@ module.exports = {
     // 条件中使用常量表达式
     'no-constant-condition': 'warn',
     // 禁止出现debugger
-    'no-debugger': 'error',
+    'no-debugger': 'warn',
     // 禁止console.log，可以自定义一个Console类，判断当前是否在开发环境，再输出
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     // 禁止在条件语句中出现赋值操作符
@@ -171,7 +171,6 @@ module.exports = {
     // 关于AST可以参考：https://astexplorer.net/
     'no-restricted-syntax': [
       'error',
-      'DebuggerStatement',
       'LabeledStatement',
       'WithStatement',
     ],
@@ -200,13 +199,6 @@ module.exports = {
      * https://cn.eslint.org/docs/rules/#ecmascript-6
      */
     'no-var': 'error',
-    'prefer-const': [
-      'error',
-      {
-        destructuring: 'any',
-        ignoreReadBeforeAssign: true,
-      },
-    ],
     'prefer-arrow-callback': [
       'error',
       {

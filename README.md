@@ -1,12 +1,17 @@
 # Monorepo for my ESLint config
 
-## ①
+Packages:
+- @zb81/eslint-config-basic
+
+## Usage
+
+### ①
 
 ```bash
 pnpm add eslint typescript @zb81/eslint-config-ts -D
 ```
 
-## ②
+### ②
 
 create `.eslintrc` :
 
