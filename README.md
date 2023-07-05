@@ -2,6 +2,10 @@
 
 Packages:
 - @zb81/eslint-config-basic
+- @zb81/eslint-config-ts
+- @zb81/eslint-config-vue2
+- @zb81/eslint-config-vue
+- @zb81/eslint-config-react
 
 ## Usage
 
