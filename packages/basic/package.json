@@ -1,6 +1,6 @@
 {
   "name": "@zb81/eslint-config-basic",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "eslint config for html, markdown, json...",
   "license": "MIT",
   "author": "Zhu Bei <zbneversettle@gmail.com>",
@@ -30,6 +30,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "eslintConfig": {
-    "extends": ["./index.js"]
+    "extends": [
+      "./index.js"
+    ]
   }
 }

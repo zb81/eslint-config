@@ -1,6 +1,6 @@
 {
   "name": "@zb81/eslint-config-vue2",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "eslint config for Vue2",
   "license": "MIT",
   "author": "Zhu Bei <zbneversettle@gmail.com>",
@@ -23,6 +23,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "eslintConfig": {
-    "extends": ["./index.js"]
+    "extends": [
+      "./index.js"
+    ]
   }
 }

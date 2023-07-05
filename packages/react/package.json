@@ -1,6 +1,6 @@
 {
   "name": "@zb81/eslint-config-react",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "eslint config for React",
   "license": "MIT",
   "author": "Zhu Bei <zbneversettle@gmail.com>",
